@@ -1,23 +1,23 @@
-MUS - Multi-Agent Shop Management System:
+# MUS - Multi-Agent Shop Management System
 
-This project is a Multi-Agent Shop Management System (MUS) built using the JADE framework. The system is designed to manage a grocery shop environment, where multiple agents (market, client, and delivery) interact with each other to fulfill customer orders efficiently.
+This project is a **Multi-Agent Shop Management System (MUS)** built using the **JADE framework**. The system is designed to manage a grocery shop environment, where multiple agents (market, client, and delivery) interact with each other to fulfill customer orders efficiently.
 
-- Features:
-1) Agent-based architecture: Utilizes JADE agents to model real-world entities like markets, delivery services, and clients.
-2) Optimal order fulfillment: Uses dynamic price calculations and market offers to find the most cost-effective way to fulfill the order.
-3) Market discovery and communication: Dynamically searches for available market agents and retrieves product offers.
-4) Delivery cost estimation: Calculates the optimal delivery cost by selecting the cheapest combination of products.
-5) Order approval and fulfillment: Clients receive the calculated offer and select the optimal delivery service.
+## Features
 
-Project structure:
-src/
-├── main/
-   └── java/
-       └── org/
+1. **Agent-based architecture:** Utilizes JADE agents to model real-world entities like markets, delivery services, and clients.
+2. **Optimal order fulfillment:** Uses dynamic price calculations and market offers to find the most cost-effective way to fulfill the order.
+3. **Market discovery and communication:** Dynamically searches for available market agents and retrieves product offers.
+4. **Delivery cost estimation:** Calculates the optimal delivery cost by selecting the cheapest combination of products.
+5. **Order approval and fulfillment:** Clients receive the calculated offer and select the optimal delivery service.
+
+---
+
+## Project Structure:
+
            └── Agents/            # Definitions of Client, Delivery, and Market Agents
            └── behaviours/        # Behaviours for agents (communication, price calculation, etc.)
 
-Sample output:
+## Sample output:
 MarketAgent MarketAgent1 started.
 MarketAgent MarketAgent2 started.
 MarketAgent MarketAgent3 started.
